@@ -1,0 +1,462 @@
+openapi: 3.0.3
+info:
+  title: Swagger Fekolti - OpenAPI 3.0
+  description: Microservice builf with [Node, Expres and MongoDb]
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: apiteam@swagger.io
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.1
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+  - url: http://localhost:5010
+tags:
+  - name: User
+    description: System users
+  - name: Auth
+    description: User authentication
+paths:
+  /api/users:
+    post:
+      tags:
+        - User
+      summary: Add a new user
+      description: Add a new user to the system
+      operationId: addUser
+      requestBody:
+        description: Create request body
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUser'
+        required: true
+      responses:
+        '201':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateUser'
+        default:
+          description: Invalid request
+      security:
+        - auth:
+            - write:users
+            - read:users
+
+    get:
+      tags:
+        - User
+      summary: Get or search users
+      description: Get users by criteria or all
+      operationId: getUsers
+      parameters:
+        - in: query
+          name: text
+          description: user name
+          schema:
+            type: string
+        - in: query
+          name: limit
+          description: user count limit
+          schema:
+            type: number
+        - in: query
+          name: offSet
+          description: user count offset
+          schema:
+            type: number
+        - in: query
+          name: startCreateDate
+          description: user start created date 'YYYY/MM/DD'
+          schema:
+            type: string
+            format: date-time
+        - in: query
+          name: endCreateDate
+          description: user end created date 'YYYY/MM/DD'
+          schema:
+            type: string
+            format: date-time
+        - in: query
+          name: roles
+          description: user roles assigned
+          schema:
+            type: 'array'
+            items:
+              type: string
+              format: int64
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        default:
+          description: Invalid request
+      security:
+        - auth:
+            - write:users
+            - read:users
+
+  /api/users/{id}:
+    put:
+      tags:
+        - User
+      summary: Update an existing user
+      description: Update an existing user by Id
+      operationId: updateUser
+      parameters:
+        - in: path
+          name: id
+          description: User id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Update request body
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUser'
+        required: true
+      responses:
+        '200':
+          description: Ok
+        default:
+          description: Invalid request
+      security:
+        - auth:
+            - write:users
+            - read:users
+
+    patch:
+      tags:
+        - User
+      summary: Patch an existing user
+      description: Patch an existing user by Id
+      operationId: patchUser
+      parameters:
+        - in: path
+          name: id
+          description: User id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Patch request body
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUser'
+        required: true
+      responses:
+        '200':
+          description: Ok
+        default:
+          description: Invalid request
+      security:
+        - auth:
+            - write:users
+            - read:users
+
+    get:
+      tags:
+        - User
+      summary: Get user by id
+      description: Get a single user
+      operationId: getUserById
+      parameters:
+        - in: path
+          name: id
+          description: User id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        default:
+          description: Invalid request
+      security:
+        - api_key: []
+        - auth:
+            - write:users
+            - read:users
+
+    delete:
+      tags:
+        - User
+      summary: Delete an user by id
+      description: delete an user
+      operationId: deleteUser
+      parameters:
+        - name: id
+          in: path
+          description: User id to delete
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Ok
+        default:
+          description: Invalid request
+      security:
+        - auth:
+            - write:users
+            - read:users
+
+  /api/users/upload/avatar:
+    post:
+      tags:
+        - User
+      summary: Upload user avatar image
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                avatar:
+                  type: string
+                  format: binary
+                  nullable: true
+            encoding:
+              avatar:
+                style: form
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserAvatarUrl'
+        default:
+          description: Invalid request
+      security:
+        - api_key: []
+        - auth:
+            - write:users
+            - read:users
+
+  /api/users/roles:
+    get:
+      tags:
+        - User
+      summary: Get user roles
+      description: Get list of user roles
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/UserRole'
+        default:
+          description: Invalid request
+      security:
+        - api_key: []
+        - auth:
+            - write:users
+            - read:users
+
+  /api/authentication/login:
+    post:
+      tags:
+        - Auth
+      summary: Sign in
+      description: Sign in user
+      operationId: signInUser
+      requestBody:
+        description: Patch request body
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginUser'
+        required: true
+      responses:
+        '200':
+          description: Ok
+          headers:
+            X-Rate-Limit:
+              description: calls per hour allowed by the user
+              schema:
+                type: integer
+                format: int32
+            X-Expires-After:
+              description: date in UTC when token expires
+              schema:
+                type: string
+                format: date-time
+          content:
+            application/json:
+              schema:
+                type: string
+                example: token...
+        default:
+          description: failed operation
+
+  /api/authentication/logout:
+    post:
+      tags:
+        - Auth
+      summary: Sing out
+      description: Sing out
+      operationId: signOutUser
+      responses:
+        '200':
+          description: Ok
+        default:
+          description: failed operation
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: 639515f22740fbb884a73ef9
+        name:
+          type: string
+          example: john
+        email:
+          type: string
+          example: john@email.com
+        password:
+          type: string
+          example: '1234568'
+        image:
+          type: string
+          example: imageurl
+        roles:
+          type: array
+          example: ['administrator']
+        createdAt:
+          type: date
+          description: User created date
+        updatedAt:
+          type: date
+          description: User updated date
+      xml:
+        name: user
+
+    CreateUser:
+      type: object
+      properties:
+        name:
+          type: string
+          example: john
+        email:
+          type: string
+          example: john@email.com
+        password:
+          type: string
+          example: '1234568'
+        image:
+          type: string
+          example: imageurl
+        roles:
+          type: array
+          example: ['administrator']
+      xml:
+        name: postUser
+
+    UpdateUser:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        image:
+          type: string
+        roles:
+          type: array
+          example: ['administrator']
+      xml:
+        name: putUser
+
+    LoginUser:
+      type: object
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+      xml:
+        name: loginUser
+
+    UserAvatarUrl:
+      type: object
+      properties:
+        url:
+          type: string
+      xml:
+        name: userAvatarUrl
+
+    UserRole:
+      type: object
+      properties:
+        value:
+          type: number
+        label:
+          type: string
+      xml:
+        name: userRoles
+
+  requestBodies:
+    User:
+      description: User object
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/User'
+
+    UserArray:
+      description: List of user object
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/User'
+
+    UserRoleArray:
+      description: List of user role object
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/UserRole'
+
+  securitySchemes:
+    auth:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://petstore3.swagger.io/oauth/authorize
+          scopes:
+            write:pets: modify pets in your account
+            read:pets: read your pets
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header

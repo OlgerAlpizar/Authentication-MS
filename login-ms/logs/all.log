@@ -1,0 +1,295 @@
+2023-06-14 13:36:47 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:36:47 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 13:36:49 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 13:37:00 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:37:00 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 13:37:02 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 13:37:04 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 13:37:06 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:38:21 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:38:21 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 13:38:23 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 13:38:25 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 13:38:27 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:39:05 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority[39m
+2023-06-14 13:39:05 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:39:05 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 13:39:07 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority[39m
+2023-06-14 13:39:07 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 13:39:09 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority[39m
+2023-06-14 13:39:09 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 13:39:11 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority[39m
+2023-06-14 13:39:11 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:40:12 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority, user undefined[39m
+2023-06-14 13:40:12 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:40:12 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 13:40:14 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority, user undefined[39m
+2023-06-14 13:40:14 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 13:40:16 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority, user undefined[39m
+2023-06-14 13:40:16 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 13:40:18 [32minfo[39m: [32mmongose conn: mongodb+srv://undefined:undefined@undefined/?retryWrites=true&w=majority, user undefined[39m
+2023-06-14 13:40:18 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:41:27 [32minfo[39m: [32mmongose conn: mongodb+srv://olger:olgerpass@cluster0.0qdc1zd.mongodb.net/?retryWrites=true&w=majority, user olger[39m
+2023-06-14 13:41:27 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:41:57 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:42:28 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 13:43:00 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 13:43:33 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 13:44:05 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 13:45:20 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:45:22 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 13:46:17 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:46:18 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 13:47:37 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:47:39 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 13:52:10 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:52:11 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 13:53:08 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:53:09 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 13:57:38 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 13:57:40 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 14:00:06 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 14:00:08 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 14:05:37 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 14:05:39 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 14:05:48 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 14:05:49 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 14:58:21 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 14:58:23 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 14:58:49 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 14:58:51 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 15:22:14 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 15:22:16 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 15:52:28 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 15:52:30 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 15:53:34 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 15:53:35 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 16:58:05 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 16:58:12 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 16:58:36 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 16:59:08 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:00:54 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:01:25 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:02:04 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:02:29 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:02:41 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:03:11 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:03:54 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:04:02 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:04:25 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:04:56 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:05:28 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:06:01 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 17:06:40 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:06:53 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:08:23 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:10:39 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:10:54 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:11:24 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:11:57 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:12:53 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:13:10 [31merror[39m: [31m[[39m
+[31m  {[39m
+[31m    type: 'field',[39m
+[31m    value: '123asdAS!@',[39m
+[31m    msg: 'Invalid value',[39m
+[31m    path: 'password',[39m
+[31m    location: 'body'[39m
+[31m  }[39m
+[31m][39m
+2023-06-14 17:13:26 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:13:26 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:13:59 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:14:31 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 17:15:04 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+{"level":"info","message":"Server running on port 3010"}
+{"level":"error","message":[{"location":"body","msg":"Invalid value","path":"password","type":"field","value":"123asdAS!@"}]}
+{"level":"error","message":"An error has occur: Error validating data for new account"}
+{"level":"info","message":"Retrying mongoose connection 0"}
+{"level":"info","message":"Retrying mongoose connection 1"}
+{"level":"info","message":"Retrying mongoose connection 2"}
+{"level":"error","message":"Error connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":"atlas-3ffcn6-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at NativeConnection.Connection.openUri (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/connection.js:825:32)\n    at /Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/index.js:414:10\n    at /Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)\n    at Mongoose._promiseOrCallback (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/index.js:1288:10)\n    at Mongoose.connect (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/index.js:413:20)\n    at MongoConnection.<anonymous> (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/src/configuration/mongo.ts:11:8)\n    at Generator.next (<anonymous>)\n    at /Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/src/configuration/mongo.ts:8:71"}
+2023-06-14 17:33:33 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:33:34 [32minfo[39m: [32masdads[39m
+2023-06-14 17:33:34 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:34:04 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:34:41 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:34:45 [32minfo[39m: [32masdads[39m
+2023-06-14 17:34:45 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:35:09 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:35:18 [32minfo[39m: [32masdads[39m
+2023-06-14 17:35:18 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:35:40 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:36:04 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:36:35 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:37:07 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:37:40 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 17:37:53 [32minfo[39m: [32masdads[39m
+2023-06-14 17:37:53 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:38:12 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 17:39:55 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:39:55 [32minfo[39m: [32masdads[39m
+2023-06-14 17:39:55 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:40:30 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:40:30 [32minfo[39m: [32masdads[39m
+2023-06-14 17:40:30 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:41:01 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:41:33 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:42:06 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 17:48:14 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:48:33 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:48:41 [31merror[39m: [31mValidation error: [object Object][39m
+2023-06-14 17:48:41 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:49:04 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:49:34 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:49:38 [31merror[39m: [31mValidation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}][39m
+2023-06-14 17:49:38 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:50:05 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:50:37 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 17:51:10 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 17:51:42 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 17:54:32 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:55:03 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 17:58:23 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:59:41 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 17:59:46 [31merror[39m: [31mValidation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}][39m
+2023-06-14 17:59:46 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 18:02:50 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:03:01 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:03:05 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 18:03:40 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:03:41 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 18:04:06 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:04:28 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:04:39 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:04:51 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:04:52 [31merror[39m: [31mAn error has occur: "Error validating data for new account"[39m
+2023-06-14 18:04:59 [31merror[39m: [31mAn error has occur: "Error validating data for new account"[39m
+2023-06-14 18:05:22 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:05:23 [31merror[39m: [31mAn error has occur: {"code":422,"details":"Validation error: [{\"type\":\"field\",\"value\":\"123asdAS!@\",\"msg\":\"Invalid value\",\"path\":\"password\",\"location\":\"body\"}]"}[39m
+2023-06-14 18:05:53 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 18:06:25 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 18:07:07 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:07:31 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:07:32 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:07:33 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:08:02 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 18:08:34 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-14 18:09:07 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-14 18:09:40 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 18:13:06 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:13:29 [31merror[39m: [31mError validating data for new account - Validation error: []. code: 422[39m
+2023-06-14 18:13:36 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 18:14:32 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:14:55 [31merror[39m: [31mOperation `users.findOne()` buffering timed out after 10000ms - undefined. code: undefined[39m
+2023-06-14 18:15:02 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 18:15:23 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:15:53 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-14 18:16:22 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:17:50 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:17:51 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:26:30 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:26:32 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:26:38 [31merror[39m: [31mEmail user already exists - olger@mail.com. code: 422[39m
+2023-06-14 18:26:52 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:28:05 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:28:07 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:28:08 [31merror[39m: [31mError validating data for new account - Validation error: {"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}. code: 422[39m
+2023-06-14 18:28:47 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:28:49 [31merror[39m: [31mError validating data for new account - Validation error: "Invalid value". code: 422[39m
+2023-06-14 18:28:49 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:29:06 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:29:07 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:29:09 [31merror[39m: [31mError validating data for new account - Validation error: "field". code: 422[39m
+2023-06-14 18:31:01 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:31:02 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:31:04 [31merror[39m: [31mError validating data for new account - Validation error: {"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}. code: 422[39m
+2023-06-14 18:31:05 [31merror[39m: [31mError validating data for new account - Validation error: {"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}. code: 422[39m
+2023-06-14 18:31:22 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:31:22 [31merror[39m: [31mError validating data for new account - Validation error: "password". code: 422[39m
+2023-06-14 18:31:23 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:31:50 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:31:51 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:32:35 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:32:37 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:33:11 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:33:13 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:36:51 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:36:52 [31merror[39m: [31mError validating data for new account - Validation error: []. code: 422[39m
+2023-06-14 18:36:52 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:37:56 [31merror[39m: [31mError validating data for new account - Validation error: []. code: 422[39m
+2023-06-14 18:40:11 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:40:13 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:41:45 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:41:47 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:42:03 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:42:06 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:42:34 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:42:34 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:43:19 [32minfo[39m: [32mStarting server[39m
+2023-06-14 18:43:21 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:43:21 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:43:33 [31merror[39m: [31mEmail user already exists - olger@mail.com. code: 422[39m
+2023-06-14 18:43:49 [31merror[39m: [31mEmail user already exists - olger@mail.com. code: 422[39m
+2023-06-14 18:44:56 [32minfo[39m: [32mStarting server[39m
+2023-06-14 18:44:58 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:44:58 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:45:08 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdA","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:47:47 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:47:47 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:48:25 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:48:25 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:49:02 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:49:02 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:52:01 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:52:01 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:52:18 [31merror[39m: [31mError validating data for new account - Validation error: "field". code: 422[39m
+2023-06-14 18:53:18 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:53:18 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 18:53:26 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdA","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:53:54 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 18:53:54 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 19:35:34 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 19:35:34 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 19:53:24 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 19:53:24 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 19:54:18 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 19:54:18 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 19:54:28 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 19:54:28 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 20:01:18 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 20:01:18 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 20:14:06 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 20:14:06 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 20:21:15 [31merror[39m: [31mEmail user already exists - olger3@mail.com. code: 422[39m
+2023-06-14 20:21:40 [31merror[39m: [31mEmail user already exists - olger3@mail.com. code: 422[39m
+2023-06-14 20:42:29 [31merror[39m: [31mUser oler@asd.com does not exists - oler@asd.com. code: 404[39m
+2023-06-14 20:43:08 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 20:43:08 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 20:43:42 [31merror[39m: [31mUser zxc@aseawe.sd does not exists - zxc@aseawe.sd. code: 404[39m
+2023-06-14 20:44:41 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:45:14 [31merror[39m: [31mUser sdfsdfds@asda.co does not exists - sdfsdfds@asda.co. code: 404[39m
+2023-06-14 20:47:41 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 20:47:41 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 20:49:25 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:49:44 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:50:59 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:56:29 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:57:50 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:58:28 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:58:58 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:59:19 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:59:22 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:59:59 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 21:01:09 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 21:01:09 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 21:01:28 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 21:01:46 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 21:01:58 [31merror[39m: [31mUser olgera@mail.com does not exists - olgera@mail.com. code: 404[39m
+2023-06-14 21:04:34 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 21:04:34 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 21:04:54 [32minfo[39m: [32mMongoose connected![39m
+2023-06-14 21:04:54 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-14 21:04:55 [31merror[39m: [31mUser olgera@mail.com does not exists - . code: 404[39m
+2023-06-14 21:05:02 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-14 21:05:18 [31merror[39m: [31mIncorrect password - . code: 401[39m

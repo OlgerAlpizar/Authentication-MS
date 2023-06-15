@@ -1,0 +1,82 @@
+2023-06-14 13:37:06 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:38:27 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:39:11 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:40:18 [31merror[39m: [31mError connecting to mongoose URI must include hostname, domain name, and tld[39m
+2023-06-14 13:44:05 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 16:58:12 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:04:02 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:13:10 [31merror[39m: [31m[[39m
+[31m  {[39m
+[31m    type: 'field',[39m
+[31m    value: '123asdAS!@',[39m
+[31m    msg: 'Invalid value',[39m
+[31m    path: 'password',[39m
+[31m    location: 'body'[39m
+[31m  }[39m
+[31m][39m
+2023-06-14 17:13:26 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:15:04 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+{"level":"error","message":[{"location":"body","msg":"Invalid value","path":"password","type":"field","value":"123asdAS!@"}]}
+{"level":"error","message":"An error has occur: Error validating data for new account"}
+{"level":"error","message":"Error connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":"atlas-3ffcn6-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at NativeConnection.Connection.openUri (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/connection.js:825:32)\n    at /Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/index.js:414:10\n    at /Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)\n    at Mongoose._promiseOrCallback (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/index.js:1288:10)\n    at Mongoose.connect (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/node_modules/.pnpm/mongoose@6.11.2/node_modules/mongoose/lib/index.js:413:20)\n    at MongoConnection.<anonymous> (/Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/src/configuration/mongo.ts:11:8)\n    at Generator.next (<anonymous>)\n    at /Users/olger.alpizar/Documents/Development/Personal/Cafeteria/login-ms/src/configuration/mongo.ts:8:71"}
+2023-06-14 17:33:34 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:34:45 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:35:18 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:37:53 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:38:12 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 17:39:55 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:40:30 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:48:41 [31merror[39m: [31mValidation error: [object Object][39m
+2023-06-14 17:48:41 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:49:38 [31merror[39m: [31mValidation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}][39m
+2023-06-14 17:49:38 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 17:51:42 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 17:59:46 [31merror[39m: [31mValidation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}][39m
+2023-06-14 17:59:46 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 18:03:05 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 18:03:41 [31merror[39m: [31mAn error has occur: Error validating data for new account[39m
+2023-06-14 18:04:52 [31merror[39m: [31mAn error has occur: "Error validating data for new account"[39m
+2023-06-14 18:04:59 [31merror[39m: [31mAn error has occur: "Error validating data for new account"[39m
+2023-06-14 18:05:23 [31merror[39m: [31mAn error has occur: {"code":422,"details":"Validation error: [{\"type\":\"field\",\"value\":\"123asdAS!@\",\"msg\":\"Invalid value\",\"path\":\"password\",\"location\":\"body\"}]"}[39m
+2023-06-14 18:07:32 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:07:33 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdAS!@","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:09:40 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-14 18:13:29 [31merror[39m: [31mError validating data for new account - Validation error: []. code: 422[39m
+2023-06-14 18:14:55 [31merror[39m: [31mOperation `users.findOne()` buffering timed out after 10000ms - undefined. code: undefined[39m
+2023-06-14 18:26:38 [31merror[39m: [31mEmail user already exists - olger@mail.com. code: 422[39m
+2023-06-14 18:26:52 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:28:08 [31merror[39m: [31mError validating data for new account - Validation error: {"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}. code: 422[39m
+2023-06-14 18:28:49 [31merror[39m: [31mError validating data for new account - Validation error: "Invalid value". code: 422[39m
+2023-06-14 18:29:09 [31merror[39m: [31mError validating data for new account - Validation error: "field". code: 422[39m
+2023-06-14 18:31:04 [31merror[39m: [31mError validating data for new account - Validation error: {"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}. code: 422[39m
+2023-06-14 18:31:05 [31merror[39m: [31mError validating data for new account - Validation error: {"type":"field","value":"123asdAS!","msg":"Invalid value","path":"password","location":"body"}. code: 422[39m
+2023-06-14 18:31:22 [31merror[39m: [31mError validating data for new account - Validation error: "password". code: 422[39m
+2023-06-14 18:36:52 [31merror[39m: [31mError validating data for new account - Validation error: []. code: 422[39m
+2023-06-14 18:37:56 [31merror[39m: [31mError validating data for new account - Validation error: []. code: 422[39m
+2023-06-14 18:43:33 [31merror[39m: [31mEmail user already exists - olger@mail.com. code: 422[39m
+2023-06-14 18:43:49 [31merror[39m: [31mEmail user already exists - olger@mail.com. code: 422[39m
+2023-06-14 18:45:08 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdA","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 18:52:18 [31merror[39m: [31mError validating data for new account - Validation error: "field". code: 422[39m
+2023-06-14 18:53:26 [31merror[39m: [31mError validating data for new account - Validation error: [{"type":"field","value":"123asdA","msg":"Invalid value","path":"password","location":"body"}]. code: 422[39m
+2023-06-14 20:21:15 [31merror[39m: [31mEmail user already exists - olger3@mail.com. code: 422[39m
+2023-06-14 20:21:40 [31merror[39m: [31mEmail user already exists - olger3@mail.com. code: 422[39m
+2023-06-14 20:42:29 [31merror[39m: [31mUser oler@asd.com does not exists - oler@asd.com. code: 404[39m
+2023-06-14 20:43:42 [31merror[39m: [31mUser zxc@aseawe.sd does not exists - zxc@aseawe.sd. code: 404[39m
+2023-06-14 20:44:41 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:45:14 [31merror[39m: [31mUser sdfsdfds@asda.co does not exists - sdfsdfds@asda.co. code: 404[39m
+2023-06-14 20:49:25 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:49:44 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:50:59 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:56:29 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:57:50 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:58:28 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:58:58 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:59:19 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:59:22 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 20:59:59 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 21:01:28 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 21:01:46 [31merror[39m: [31mIncorrect password - olger@mail.com. code: 401[39m
+2023-06-14 21:01:58 [31merror[39m: [31mUser olgera@mail.com does not exists - olgera@mail.com. code: 404[39m
+2023-06-14 21:04:55 [31merror[39m: [31mUser olgera@mail.com does not exists - . code: 404[39m
+2023-06-14 21:05:02 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-14 21:05:18 [31merror[39m: [31mIncorrect password - . code: 401[39m
