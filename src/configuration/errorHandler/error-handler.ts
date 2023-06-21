@@ -1,5 +1,5 @@
-import { NextFunction, Request, Response } from 'express'
 import { Logger } from '../logger'
+import { NextFunction, Request, Response } from 'express'
 import HttpError from './http-error'
 
 const errorHandler = (
@@ -11,7 +11,9 @@ const errorHandler = (
 ) => {
   Logger.error(`${error.message} - ${error.details}. code: ${error.code}`)
   res.status(error.code || 500).send({
-    message: `${error.message || 'Something went wrong'}. ${error.details || ''}`
+    message: `${error.message || 'Something went wrong'}. ${
+      error.details || ''
+    }`,
   })
 }
 

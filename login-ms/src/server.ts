@@ -1,17 +1,17 @@
-import express from 'express'
-import bodyParser from 'body-parser'
+import { Logger } from './configuration/logger'
 import Config from './configuration/config'
-import swaggerUI from 'swagger-ui-express'
-import helmet from 'helmet'
+import MongoConnection from './configuration/mongo'
+import YAML from 'yamljs'
+import bodyParser from 'body-parser'
 import cors from 'cors'
 import corsOptions from './configuration/cors'
-import MongoConnection from './configuration/mongo'
-import morgan from 'morgan'
-import YAML from 'yamljs'
-import loginRoutes from './routes/login-routes'
-import errorHandler from './configuration/errorHandler/error-handler'
-import { Logger } from './configuration/logger'
 import dotenv from 'dotenv'
+import errorHandler from './configuration/errorHandler/error-handler'
+import express from 'express'
+import helmet from 'helmet'
+import loginRoutes from './routes/login-routes'
+import morgan from 'morgan'
+import swaggerUI from 'swagger-ui-express'
 
 const app = express()
 dotenv.config()
@@ -35,7 +35,7 @@ app.use(errorHandler)
 
 //start
 const port = Config.port()
-app.listen(port, async() => {
+app.listen(port, async () => {
   await mongo.mongooseConnectDB()
   Logger.info(`Server running on port ${port}`)
 })

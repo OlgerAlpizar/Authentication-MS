@@ -1,6 +1,5 @@
-import { NextFunction, Request, Response } from 'express'
 import * as service from '../services/login-service'
-
+import { NextFunction, Request, Response } from 'express'
 
 export const signIn = async (
   req: Request,
@@ -17,7 +16,7 @@ export const signUp = async (
   req: Request,
   res: Response,
   next: NextFunction
-) => {  
+) => {
   await service
     .signUp(req, next)
     .then((response) => res.status(201).send(response))

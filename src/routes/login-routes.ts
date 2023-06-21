@@ -1,6 +1,6 @@
+import * as controller from '../controller/login-controller'
 import { Router } from 'express'
 import { check } from 'express-validator'
-import * as controller from '../controller/login-controller'
 
 const signInValidator = [
   check('email').normalizeEmail(),

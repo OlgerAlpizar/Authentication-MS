@@ -1,6 +1,6 @@
-import mongoose from 'mongoose'
 import { Logger } from './logger'
 import Config from './config'
+import mongoose from 'mongoose'
 
 class MongoConnection {
   tryTimes = 0

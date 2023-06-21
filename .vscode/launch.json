@@ -9,10 +9,7 @@
       "request": "launch",
       "name": "Node: Nodemon",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": [
-        "run-script",
-        "dev"
-      ],
+      "runtimeArgs": ["run-script", "dev"],
       "sourceMaps": true,
       "console": "integratedTerminal"
     }
