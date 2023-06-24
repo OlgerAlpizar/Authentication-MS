@@ -2,7 +2,7 @@ type StaticOrigin = boolean | string | RegExp | (boolean | string | RegExp)[]
 type CorsCallback = (err: Error | null, origins?: StaticOrigin) => void
 type OriginType = string | undefined
 
-const whiteList = ['http://localhost:3010', 'http://localhost:3011']
+const whiteList = ['https://localhost:3000', 'https://localhost:3001']
 
 const corsOptions = {
   origin: (origin: OriginType, callback: CorsCallback) => {

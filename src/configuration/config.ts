@@ -6,6 +6,9 @@ class Config {
   static jwtSecret = (): string =>
     process.env.JWT_SECRET || '5F86D1E0-0F59-4E88-A766-7E0C10E550A0'
 
+  static jwtExpiresIn = (): string =>
+    process.env.JWT_EXPIRES_IN || '1d'
+
   static mongoConnString = (): string =>
     `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@${process.env.MONGO_URI}/?retryWrites=true&w=majority` ||
     ''

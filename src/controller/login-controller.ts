@@ -8,7 +8,7 @@ export const signIn = async (
 ) => {
   await service
     .signIn(req, next)
-    .then((response) => res.send(response))
+    .then((response) => res.json(response))
     .catch((err) => next(err))
 }
 
@@ -19,7 +19,7 @@ export const signUp = async (
 ) => {
   await service
     .signUp(req, next)
-    .then((response) => res.status(201).send(response))
+    .then((response) => res.json(response))
     .catch((err) => next(err))
 }
 

@@ -80,3 +80,21 @@
 2023-06-14 21:04:55 [31merror[39m: [31mUser olgera@mail.com does not exists - . code: 404[39m
 2023-06-14 21:05:02 [31merror[39m: [31mIncorrect password - . code: 401[39m
 2023-06-14 21:05:18 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-22 18:56:36 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-22 19:01:37 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-06-22 19:08:39 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:16:56 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:18:27 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:19:47 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:20:35 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:21:06 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:22:27 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:22:56 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-23 16:33:37 [31merror[39m: [31mUser aasd@asd.cd does not exists - . code: 404[39m
+2023-06-23 16:36:16 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-23 16:53:26 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-23 17:38:15 [31merror[39m: [31mUser asd@we.asd does not exists - . code: 404[39m
+2023-06-23 18:41:38 [31merror[39m: [31m"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60 - undefined. code: undefined[39m
+2023-06-23 18:41:45 [31merror[39m: [31m"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60 - undefined. code: undefined[39m
+2023-06-23 18:43:28 [31merror[39m: [31m"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60 - undefined. code: undefined[39m
+2023-06-23 21:09:27 [31merror[39m: [31mUser olger@mial.com does not exists - . code: 404[39m

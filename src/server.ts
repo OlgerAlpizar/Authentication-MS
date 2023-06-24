@@ -27,7 +27,7 @@ app.use(helmet())
 app.use(cors(corsOptions))
 
 //endpoints
-app.use('/api/login', loginRoutes)
+app.use('/api/authentication', loginRoutes)
 app.use('/', swaggerUI.serve, swaggerUI.setup(YAML.load('./swagger.yaml')))
 
 //Global error handler

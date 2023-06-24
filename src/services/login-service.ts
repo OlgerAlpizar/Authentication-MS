@@ -1,7 +1,9 @@
+import { Logger } from '../configuration/logger'
 import { NextFunction, Request } from 'express'
 import { UserSchemaModel } from '../models/schema/user-schema'
 import { getValidationErrors } from '../configuration/errorHandler/validation-errors'
 import { validationResult } from 'express-validator'
+import AuthenticationInfo from '../models/entities/authenticationInfo'
 import Config from '../configuration/config'
 import HttpError from '../configuration/errorHandler/http-error'
 import SignInRequest from '../models/requests/sign-in-request'
@@ -11,15 +13,20 @@ import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 
 const generateToken = (email: string, id: string) => {
-  return jwt.sign({ userEmail: email, userId: id }, Config.jwtSecret(), {
-    expiresIn: '15m',
-  })
+  return new AuthenticationInfo(jwt.sign(
+    {
+      userEmail: email,
+      userId: id,
+    }
+    , Config.jwtSecret(), {
+    expiresIn: `${Config.jwtExpiresIn()}`,
+  }))
 }
 
 export const signIn = async (
   req: Request,
   next: NextFunction
-): Promise<string | void> => {
+): Promise<AuthenticationInfo | void> => {
   const request: SignInRequest = req.body
   const validationErrors = validationResult(req).array()
 
@@ -39,7 +46,8 @@ export const signIn = async (
     return next(new HttpError(`User ${request.email} does not exists`, '', 404))
   }
 
-  if (await bcrypt.compare(existingUser.password, request.password)) {
+  const checkPass = await bcrypt.compare(request.password, existingUser.password)
+  if (!checkPass) {
     return next(new HttpError('Incorrect password', '', 401))
   }
 
@@ -49,9 +57,11 @@ export const signIn = async (
 export const signUp = async (
   req: Request,
   next: NextFunction
-): Promise<string | void> => {
+): Promise<AuthenticationInfo | void> => {
   const request: SignUpRequest = req.body
   const validationErrors = validationResult(req).array()
+
+  Logger.info('here')
 
   if (validationErrors.length > 0) {
     return next(

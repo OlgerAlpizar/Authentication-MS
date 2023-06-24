@@ -307,3 +307,98 @@
 2023-06-15 14:40:55 [32minfo[39m: [32mServer running on port 3010[39m
 2023-06-18 13:01:20 [32minfo[39m: [32mMongoose connected![39m
 2023-06-18 13:01:20 [32minfo[39m: [32mServer running on port 3010[39m
+2023-06-22 18:54:58 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-22 18:54:58 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 18:55:31 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-22 18:56:03 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-22 18:56:36 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-22 18:58:18 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 18:58:18 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 18:59:10 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 18:59:10 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:01:37 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-06-22 19:07:20 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:07:20 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:08:02 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:08:02 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:08:35 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:08:35 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:08:39 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:16:33 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:16:33 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:16:56 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:18:27 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:19:47 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:20:35 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:21:06 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:22:21 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:22:21 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:22:27 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:22:54 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:22:54 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:22:56 [31merror[39m: [31mBlock by cors - The CORS policy for this site does not allow access from the specified Origin. code: 501[39m
+2023-06-22 19:23:13 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:23:13 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:26:09 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:26:09 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:29:25 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:29:25 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:31:04 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:31:04 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-22 19:32:10 [32minfo[39m: [32mMongoose connected![39m
+2023-06-22 19:32:10 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 16:28:30 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 16:28:30 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 16:31:15 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 16:31:15 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 16:33:37 [31merror[39m: [31mUser aasd@asd.cd does not exists - . code: 404[39m
+2023-06-23 16:35:42 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 16:35:42 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 16:36:13 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 16:36:13 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 16:36:16 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-23 16:37:49 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 16:37:49 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 16:51:21 [32minfo[39m: [32mhere[39m
+2023-06-23 16:53:26 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-06-23 16:54:17 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 16:54:17 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 17:08:19 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 17:08:19 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 17:38:15 [31merror[39m: [31mUser asd@we.asd does not exists - . code: 404[39m
+2023-06-23 18:32:10 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:32:10 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:33:06 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:33:06 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:33:21 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:33:21 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:35:58 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:35:58 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:37:33 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:37:33 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:38:18 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:38:18 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:39:36 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:39:36 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:40:48 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:40:48 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:41:38 [31merror[39m: [31m"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60 - undefined. code: undefined[39m
+2023-06-23 18:41:45 [31merror[39m: [31m"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60 - undefined. code: undefined[39m
+2023-06-23 18:43:21 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:43:21 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:43:28 [31merror[39m: [31m"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60 - undefined. code: undefined[39m
+2023-06-23 18:44:00 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:44:00 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:45:16 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:45:16 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:45:48 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:45:48 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:54:07 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:54:07 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:54:21 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:54:21 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 18:55:44 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 18:55:44 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 20:47:48 [32minfo[39m: [32mMongoose connected![39m
+2023-06-23 20:47:48 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-23 21:09:27 [31merror[39m: [31mUser olger@mial.com does not exists - . code: 404[39m
