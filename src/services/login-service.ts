@@ -3,30 +3,39 @@ import { NextFunction, Request } from 'express'
 import { UserSchemaModel } from '../models/schema/user-schema'
 import { getValidationErrors } from '../configuration/errorHandler/validation-errors'
 import { validationResult } from 'express-validator'
-import AuthenticationInfo from '../models/entities/authenticationInfo'
+import AuthResponse from '../models/responses/auth-response'
 import Config from '../configuration/config'
 import HttpError from '../configuration/errorHandler/http-error'
 import SignInRequest from '../models/requests/sign-in-request'
 import SignOutRequest from '../models/requests/sign-out-request'
 import SignUpRequest from '../models/requests/sign-up-request'
+import User from '../models/entities/user'
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 
-const generateToken = (email: string, id: string) => {
-  return new AuthenticationInfo(jwt.sign(
+const generateToken = (user: User) => {
+  const token = jwt.sign(
     {
-      userEmail: email,
-      userId: id,
+      email: user.email
     }
     , Config.jwtSecret(), {
-    expiresIn: `${Config.jwtExpiresIn()}`,
-  }))
+    expiresIn: Config.jwtExpiresIn(),
+  })
+
+  return {
+    token: token,
+    firstName: user.firstName,
+    lastName: user.lastName,
+    avatar: user.avatar,
+    email: user.email,
+    expiresIn: Config.jwtExpiresIn() / 10000 //to export as minutes
+  }
 }
 
 export const signIn = async (
   req: Request,
   next: NextFunction
-): Promise<AuthenticationInfo | void> => {
+): Promise<AuthResponse | void> => {
   const request: SignInRequest = req.body
   const validationErrors = validationResult(req).array()
 
@@ -51,13 +60,13 @@ export const signIn = async (
     return next(new HttpError('Incorrect password', '', 401))
   }
 
-  return generateToken(existingUser.email, existingUser.id)
+  return generateToken(existingUser)
 }
 
 export const signUp = async (
   req: Request,
   next: NextFunction
-): Promise<AuthenticationInfo | void> => {
+): Promise<AuthResponse | void> => {
   const request: SignUpRequest = req.body
   const validationErrors = validationResult(req).array()
 
@@ -86,7 +95,7 @@ export const signUp = async (
     return res.id
   })
 
-  return generateToken(storedUser.email, storedUser.id)
+  return generateToken(storedUser)
 }
 
 export const signOut = async (

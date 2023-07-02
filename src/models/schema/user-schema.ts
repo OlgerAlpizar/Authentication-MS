@@ -1,8 +1,8 @@
 import { Schema, model } from 'mongoose'
-import UserEntity from '../entities/user'
+import User from '../entities/user'
 import uniqueValidator from 'mongoose-unique-validator'
 
-const UserSchema = new Schema<UserEntity>(
+const UserSchema = new Schema<User>(
   {
     firstName: {
       type: String,
@@ -29,10 +29,16 @@ const UserSchema = new Schema<UserEntity>(
       required: true,
       minlength: 10,
     },
+    avatar: {
+      type: String
+    },
+    receiveNotifications: {
+      type: Boolean
+    }
   },
   {
     timestamps: true, //auto createdAt and updatedAt columns
   }
 ).plugin(uniqueValidator)
 
-export const UserSchemaModel = model<UserEntity>('User', UserSchema)
+export const UserSchemaModel = model<User>('User', UserSchema)

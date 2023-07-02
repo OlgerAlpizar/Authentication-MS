@@ -20,7 +20,7 @@
     "quotes": ["error", "single"],
     "no-console": 2,
     "sort-imports-es6-autofix/sort-imports-es6": [
-      2,
+      1,
       {
         "ignoreCase": false,
         "ignoreMemberSort": false,

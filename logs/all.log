@@ -402,3 +402,69 @@
 2023-06-23 20:47:48 [32minfo[39m: [32mMongoose connected![39m
 2023-06-23 20:47:48 [32minfo[39m: [32mServer running on port 4001[39m
 2023-06-23 21:09:27 [31merror[39m: [31mUser olger@mial.com does not exists - . code: 404[39m
+2023-06-24 18:07:21 [32minfo[39m: [32mMongoose connected![39m
+2023-06-24 18:07:21 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-26 17:35:08 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-06-26 17:35:08 [32minfo[39m: [32mServer running on port 4001[39m
+2023-06-26 17:35:40 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-06-26 17:36:13 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-06-26 17:36:45 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-06-26 17:44:12 [32minfo[39m: [32mMongoose connected![39m
+2023-06-26 17:44:12 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 10:48:28 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 10:48:28 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 13:25:02 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-07-01 15:01:28 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:01:28 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:03:03 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:03:03 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:04:25 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:04:25 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:05:08 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:05:08 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:07:22 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:07:22 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:07:30 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:07:30 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:08:08 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:08:08 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:09:02 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:09:02 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:09:21 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:09:21 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:09:29 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:09:29 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:31:45 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:31:45 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:38:59 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:38:59 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:39:11 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:39:11 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:44:24 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:44:24 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:45:14 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:45:14 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 15:54:03 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 15:54:03 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 16:01:14 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 16:01:14 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 16:02:11 [32minfo[39m: [32mhere[39m
+2023-07-01 16:06:59 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 16:06:59 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 16:07:22 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 16:07:22 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 16:29:32 [31merror[39m: [31mUser ogler@mail.com does not exists - . code: 404[39m
+2023-07-01 17:28:09 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 17:28:09 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 17:28:27 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 17:28:27 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 17:32:38 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 17:32:38 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 17:32:53 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 17:32:53 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 17:33:42 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 17:33:42 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 17:33:50 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 17:33:50 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-01 21:31:25 [32minfo[39m: [32mMongoose connected![39m
+2023-07-01 21:31:25 [32minfo[39m: [32mServer running on port 4001[39m
