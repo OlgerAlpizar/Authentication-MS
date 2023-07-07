@@ -1,4 +1,4 @@
-import { Logger } from '../logger'
+import { Logger } from '../../logger'
 import { NextFunction, Request, Response } from 'express'
 import HttpError from './http-error'
 

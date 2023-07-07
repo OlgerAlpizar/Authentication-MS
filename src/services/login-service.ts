@@ -1,13 +1,12 @@
 import { Logger } from '../configuration/logger'
 import { NextFunction, Request } from 'express'
 import { UserSchemaModel } from '../models/schema/user-schema'
-import { getValidationErrors } from '../configuration/errorHandler/validation-errors'
+import { getValidationErrors } from '../configuration/middlewares/errorHandler/validation-errors'
+import { jwtExpiresIn, jwtSecret } from '../configuration/settings'
 import { validationResult } from 'express-validator'
 import AuthResponse from '../models/responses/auth-response'
-import Config from '../configuration/config'
-import HttpError from '../configuration/errorHandler/http-error'
+import HttpError from '../configuration/middlewares/errorHandler/http-error'
 import SignInRequest from '../models/requests/sign-in-request'
-import SignOutRequest from '../models/requests/sign-out-request'
 import SignUpRequest from '../models/requests/sign-up-request'
 import User from '../models/entities/user'
 import bcrypt from 'bcryptjs'
@@ -16,11 +15,13 @@ import jwt from 'jsonwebtoken'
 const generateToken = (user: User) => {
   const token = jwt.sign(
     {
-      email: user.email
+      email: user.email,
+    },
+    jwtSecret(),
+    {
+      expiresIn: jwtExpiresIn(),
     }
-    , Config.jwtSecret(), {
-    expiresIn: Config.jwtExpiresIn(),
-  })
+  )
 
   return {
     token: token,
@@ -28,7 +29,7 @@ const generateToken = (user: User) => {
     lastName: user.lastName,
     avatar: user.avatar,
     email: user.email,
-    expiresIn: Config.jwtExpiresIn() / 10000 //to export as minutes
+    expiresIn: jwtExpiresIn() / 10000, //to export as minutes
   }
 }
 
@@ -55,7 +56,10 @@ export const signIn = async (
     return next(new HttpError(`User ${request.email} does not exists`, '', 404))
   }
 
-  const checkPass = await bcrypt.compare(request.password, existingUser.password)
+  const checkPass = await bcrypt.compare(
+    request.password,
+    existingUser.password
+  )
   if (!checkPass) {
     return next(new HttpError('Incorrect password', '', 401))
   }
@@ -102,26 +106,64 @@ export const signOut = async (
   req: Request,
   next: NextFunction
 ): Promise<boolean | void> => {
-  const request: SignOutRequest = req.body
+  const requester = req.headers.userEmail as string
+
+  const exists = await UserSchemaModel.findOne({ email: requester })
+
+  if (!exists) {
+    return next(
+      new HttpError(
+        `User ${requester} does not exists. Then cannot logout`,
+        requester,
+        404
+      )
+    )
+  }
+
+  return true
+}
+
+export const forgotPassword = async (
+  req: Request,
+  next: NextFunction
+): Promise<boolean | void> => {
+  const request = req.body
   const validationErrors = validationResult(req).array()
 
   if (validationErrors.length > 0) {
     return next(
       new HttpError(
-        'Error validating user data',
+        'Error validating user email',
         getValidationErrors(validationErrors),
         403
       )
     )
   }
 
-  const exists = await UserSchemaModel.findOne({ email: request.email })
+  const existingUser = await UserSchemaModel.findOne({ email: request.email })
+
+  if (!existingUser) {
+    return next(new HttpError(`User ${request.email} does not exists`, '', 404))
+  }
+
+  //TODO: Implement logic for password reset
+
+  return true
+}
+
+export const checkAuthenticated = async (
+  req: Request,
+  next: NextFunction
+): Promise<boolean | void> => {
+  const requester = req.headers.userEmail as string
+
+  const exists = await UserSchemaModel.findOne({ email: requester })
 
   if (!exists) {
     return next(
       new HttpError(
-        `User ${request.email} does not exists. Then cannot logout`,
-        request.email,
+        `User ${requester} does not exists. Then cannot logout`,
+        requester,
         404
       )
     )

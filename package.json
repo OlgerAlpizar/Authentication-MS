@@ -5,8 +5,8 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "nodemon --inspect src/server.ts",
-    "eslint": "eslint --fix . --ext .ts,.js",
-    "prettier": "prettier --write .",
+    "linter": "eslint --fix . --ext .ts,.js",
+    "format": "prettier --write .",
     "clean": "rimraf src/dist"
   },
   "keywords": [],

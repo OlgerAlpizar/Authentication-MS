@@ -468,3 +468,266 @@
 2023-07-01 17:33:50 [32minfo[39m: [32mServer running on port 4001[39m
 2023-07-01 21:31:25 [32minfo[39m: [32mMongoose connected![39m
 2023-07-01 21:31:25 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 11:43:07 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 11:43:07 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 14:33:28 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 14:33:28 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:28:03 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:28:03 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:30:10 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:30:10 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:36:25 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:36:25 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:41:38 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:41:38 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:41:55 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:41:55 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:42:44 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:42:44 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:48:25 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:48:25 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:49:15 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:49:15 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:51:13 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:51:13 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:52:39 [31merror[39m: [31mUser @ does not exists. Then cannot logout - @. code: 404[39m
+2023-07-02 15:52:56 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:52:56 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 15:53:04 [31merror[39m: [31mUser @ does not exists. Then cannot logout - @. code: 404[39m
+2023-07-02 15:53:22 [31merror[39m: [31mUser @ does not exists. Then cannot logout - @. code: 404[39m
+2023-07-02 15:54:40 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 15:54:40 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 16:00:39 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 16:03:12 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 16:03:42 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 16:25:19 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 16:25:19 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 16:25:45 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 16:25:45 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 16:25:57 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 16:44:25 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 16:45:42 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 16:45:42 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 16:46:02 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 16:46:03 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 16:46:54 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 16:47:46 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 16:47:46 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 17:36:21 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 17:36:59 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:38:35 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:39:10 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:39:26 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:40:29 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:41:00 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:41:23 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:43:20 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:43:33 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:48:49 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-02 17:49:32 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 17:59:26 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 17:59:26 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 18:00:19 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:03:58 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:03 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:05 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:07 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:07 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:08 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:08 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:09 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:09 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:10 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:10 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:10 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:10 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:10 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:11 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:11 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:11 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:11 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:11 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:12 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:12 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:12 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:12 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:12 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:12 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:13 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:13 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:13 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:13 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:04:13 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:05:18 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-02 18:23:57 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 18:23:57 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 18:28:24 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 18:28:24 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 18:29:11 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 18:29:11 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-02 18:29:29 [32minfo[39m: [32mMongoose connected![39m
+2023-07-02 18:29:29 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 11:11:09 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 11:11:09 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 12:10:43 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 12:10:43 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 12:10:48 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-05 12:21:05 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-05 12:21:06 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 12:22:08 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 12:23:02 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 12:23:19 [31merror[39m: [31mIncorrect password - . code: 401[39m
+2023-07-05 12:23:32 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 12:23:55 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 12:31:15 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 12:31:34 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:23:43 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:24:00 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:24:28 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:26:10 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:27:27 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:31:05 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:31:19 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:32:33 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:33:28 [31merror[39m: [31mUnauthorized - Unable to identify auth token. code: 401[39m
+2023-07-05 13:34:32 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 13:34:32 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 13:34:51 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:35:25 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:36:03 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-05 13:36:33 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:36:37 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:37:35 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-05 13:38:11 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:38:11 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:40:01 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:40:13 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-05 13:41:08 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-05 13:42:09 [31merror[39m: [31mUnauthorized - jwt malformed. code: 401[39m
+2023-07-05 13:43:09 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 13:43:09 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 13:46:19 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 13:46:19 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 13:46:49 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 13:46:49 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 13:48:36 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 13:48:36 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:34:23 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:34:23 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:34:49 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:34:49 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:35:31 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:35:31 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:35:52 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:35:52 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:36:12 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:36:12 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:36:27 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:36:27 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:36:50 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:36:50 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:37:07 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:37:07 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:37:55 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:37:55 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:38:20 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:38:20 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:38:55 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:38:55 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:39:05 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:39:05 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:39:23 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:39:23 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-05 15:51:46 [32minfo[39m: [32mMongoose connected![39m
+2023-07-05 15:51:46 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 17:34:24 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-07-06 17:34:24 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 17:34:56 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-07-06 17:35:28 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-07-06 17:36:01 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-07-06 17:41:05 [32minfo[39m: [32mRetrying mongoose connection 0[39m
+2023-07-06 17:41:05 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 17:41:37 [32minfo[39m: [32mRetrying mongoose connection 1[39m
+2023-07-06 17:42:10 [32minfo[39m: [32mRetrying mongoose connection 2[39m
+2023-07-06 17:42:42 [31merror[39m: [31mError connecting to mongoose Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m
+2023-07-06 18:01:04 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:01:04 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:03:10 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:03:15 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:03:18 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:25:49 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:25:58 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:26:19 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:27:47 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:28:08 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:29:32 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:30:41 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:30:41 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:31:30 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:31:30 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:31:33 [32minfo[39m: [32msomething ----------------[39m
+2023-07-06 18:31:33 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:32:12 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:32:12 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:32:13 [32minfo[39m: [32msomething ---------------- [39m
+2023-07-06 18:32:13 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:33:01 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:33:01 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:33:04 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:33:04 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:33:04 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 18:33:48 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:33:48 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:38:10 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:38:10 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:38:38 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:38:38 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:40:02 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:40:02 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:40:36 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:40:36 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:40:46 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:41:25 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:41:25 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:41:26 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:41:38 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:41:38 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:41:45 [32minfo[39m: [32msomething ---------------- [39m
+2023-07-06 18:41:45 [31merror[39m: [31mThe CORS policy for this site does not allow access from the specified Origin. - undefined. code: undefined[39m
+2023-07-06 18:42:10 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:42:10 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:42:42 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:42:42 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:42:46 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:42:46 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:42:46 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 18:45:08 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:45:08 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:45:11 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:45:11 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:45:11 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 18:47:39 [32minfo[39m: [32mMongoose connected![39m
+2023-07-06 18:47:39 [32minfo[39m: [32mServer running on port 4001[39m
+2023-07-06 18:47:40 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:47:40 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 18:47:40 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 19:08:25 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:25 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:25 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 19:08:40 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:40 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:48 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:48 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:48 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 19:08:55 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:56 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:08:56 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 19:09:15 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:15 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:42 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:42 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:46 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:46 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:46 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-06 19:09:50 [32minfo[39m: [32msomething ---------------- https://localhost:3000,https://localhost:3001[39m
+2023-07-06 19:09:50 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m

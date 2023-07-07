@@ -1,5 +1,5 @@
-import { Logger } from './logger'
-import Config from './config'
+import { Logger } from '../logger'
+import { mongoConnString } from '../settings'
 import mongoose from 'mongoose'
 
 class MongoConnection {
@@ -8,7 +8,7 @@ class MongoConnection {
   mongooseConnectDB = async () => {
     mongoose.set('strictQuery', true)
     await mongoose
-      .connect(Config.mongoConnString())
+      .connect(mongoConnString())
       .then(() => {
         Logger.info('Mongoose connected!')
         this.tryTimes = 0

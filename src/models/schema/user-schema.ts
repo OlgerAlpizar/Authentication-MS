@@ -30,11 +30,11 @@ const UserSchema = new Schema<User>(
       minlength: 10,
     },
     avatar: {
-      type: String
+      type: String,
     },
     receiveNotifications: {
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
   {
     timestamps: true, //auto createdAt and updatedAt columns

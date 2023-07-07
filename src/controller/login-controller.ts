@@ -33,3 +33,25 @@ export const signOut = async (
     .then((response) => res.send(response))
     .catch((err) => next(err))
 }
+
+export const forgotPassword = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  await service
+    .forgotPassword(req, next)
+    .then((response) => res.send(response))
+    .catch((err) => next(err))
+}
+
+export const checkAuthenticated = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  await service
+    .checkAuthenticated(req, next)
+    .then((response) => res.send(response))
+    .catch((err) => next(err))
+}
