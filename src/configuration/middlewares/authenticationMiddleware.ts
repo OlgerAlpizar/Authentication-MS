@@ -21,6 +21,7 @@ const AuthenticationMiddleware = (
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const decodedToken: any = jwt.verify(token, jwtSecret())
+
     req.headers.userEmail = decodedToken.email
 
     next()

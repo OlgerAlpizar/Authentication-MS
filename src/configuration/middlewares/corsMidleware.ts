@@ -1,4 +1,3 @@
-import { Logger } from '../logger'
 import { whiteListUrls } from '../settings'
 
 type StaticOrigin = boolean | string | RegExp | (boolean | string | RegExp)[]
@@ -11,9 +10,7 @@ const corsOptions = {
     if (!origin) {
       return callback(null, true)
     }
-    const whiteList = whiteListUrls()
-    Logger.info(`something ---------------- ${whiteList}`)
-    if (whiteList?.indexOf(origin) === -1) {
+    if (whiteListUrls()?.indexOf(origin) === -1) {
       return callback(
         new Error(
           'The CORS policy for this site does not allow access from the specified Origin.'

@@ -212,3 +212,58 @@
 2023-07-06 19:08:56 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
 2023-07-06 19:09:46 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
 2023-07-06 19:09:50 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:04:52 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:04:56 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:06:28 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:09:34 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:09:36 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:09:37 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:11:00 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:11:03 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:48:28 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:48:56 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 15:48:58 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 16:35:39 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 16:35:43 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 16:35:48 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 16:37:03 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:22:09 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:22:17 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:22:20 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:22:24 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:32:04 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:55:36 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:56:10 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:56:13 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:56:27 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:56:47 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-07 17:57:03 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 09:52:01 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 09:53:16 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 09:56:49 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 10:02:47 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 10:03:26 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 10:04:18 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 10:06:16 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 10:06:56 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 10:07:40 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 13:47:30 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:48:20 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:48:54 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:49:19 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:49:30 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:50:25 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:51:21 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:51:40 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:51:40 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:52:42 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:52:55 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:53:43 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:56:34 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:56:48 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:56:49 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:57:16 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:58:28 [31merror[39m: [31mUnauthorized - Unable to identify auth token undefined. code: 401[39m
+2023-07-08 13:59:25 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 14:32:01 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m
+2023-07-08 14:33:03 [31merror[39m: [31mUnauthorized - jwt expired. code: 401[39m

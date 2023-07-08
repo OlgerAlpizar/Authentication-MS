@@ -29,7 +29,7 @@ const generateToken = (user: User) => {
     lastName: user.lastName,
     avatar: user.avatar,
     email: user.email,
-    expiresIn: jwtExpiresIn() / 10000, //to export as minutes
+    expiresIn: jwtExpiresIn() / 60, //to export as minutes
   }
 }
 
