@@ -1,4 +1,4 @@
-import * as service from '../services/login-service'
+import * as service from '../services/basic-auth-service'
 import { NextFunction, Request, Response } from 'express'
 
 export const signIn = async (
@@ -7,7 +7,7 @@ export const signIn = async (
   next: NextFunction
 ) => {
   await service
-    .signIn(req, next)
+    .signIn(req, res, next)
     .then((response) => res.json(response))
     .catch((err) => next(err))
 }
@@ -18,7 +18,7 @@ export const signUp = async (
   next: NextFunction
 ) => {
   await service
-    .signUp(req, next)
+    .signUp(req, res, next)
     .then((response) => res.json(response))
     .catch((err) => next(err))
 }
@@ -29,7 +29,7 @@ export const signOut = async (
   next: NextFunction
 ) => {
   await service
-    .signOut(req, next)
+    .signOut(req, res, next)
     .then((response) => res.send(response))
     .catch((err) => next(err))
 }
@@ -52,6 +52,17 @@ export const checkAuthenticated = async (
 ) => {
   await service
     .checkAuthenticated(req, next)
+    .then((response) => res.send(response))
+    .catch((err) => next(err))
+}
+
+export const refreshSession = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  await service
+    .refreshSession(req, res, next)
     .then((response) => res.send(response))
     .catch((err) => next(err))
 }

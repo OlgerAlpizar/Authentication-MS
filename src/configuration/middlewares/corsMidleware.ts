@@ -4,7 +4,6 @@ type StaticOrigin = boolean | string | RegExp | (boolean | string | RegExp)[]
 type CorsCallback = (err: Error | null, origins?: StaticOrigin) => void
 type OriginType = string | undefined
 
-
 const corsOptions = {
   origin: (origin: OriginType, callback: CorsCallback) => {
     if (!origin) {

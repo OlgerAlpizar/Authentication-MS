@@ -10,10 +10,12 @@ const errorHandler = (
   _next: NextFunction
 ) => {
   Logger.error(`${error.message} - ${error.details}. code: ${error.code}`)
+
   res.status(error.code || 500).send({
-    message: `${error.message || 'Something went wrong'}. ${
-      error.details || ''
-    }`,
+    message: `${error.message || 'Something went wrong'}`,
+    details: `${error.details || ''}`,
+    statusCode: error.code || 500,
+    actionRequired: error.actionRequired,
   })
 }
 

@@ -1,7 +1,19 @@
 import { NextFunction, Request, Response } from 'express'
-import { jwtSecret } from '../settings'
+import { getTokenDecode } from '../../utils/jwt-helper'
+import { jwtAccessTokenSecret } from '../settings'
+import ErrorActionRequired from './errorHandler/error-action-required'
 import HttpError from './errorHandler/http-error'
 import jwt from 'jsonwebtoken'
+
+const verifyToken = (req: Request) => {
+  const headers = req.headers.authorization?.split(' ') || []
+
+  if (headers.length > 0 && headers[0].toLowerCase() === 'bearer') {
+    return headers[1] //since token usually come as: 'Bearer token'
+  }
+
+  throw new Error('No valid bearer token')
+}
 
 const AuthenticationMiddleware = (
   req: Request,
@@ -10,24 +22,32 @@ const AuthenticationMiddleware = (
 ) => {
   try {
     if (req.method === 'OPTIONS') {
-      // avoid produce options blocks
-      return next()
-    }
-    const token = req.headers.authorization?.split(' ')[1] //since token usually come as: 'Bearer token'
-
-    if (!token) {
-      throw new Error(`Unable to identify auth token ${token}`)
+      return next() // avoid produce options blocks
     }
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const decodedToken: any = jwt.verify(token, jwtSecret())
+    const decodedToken = getTokenDecode(
+      verifyToken(req),
+      jwtAccessTokenSecret()
+    )
 
+    req.headers.userId = decodedToken.id
     req.headers.userEmail = decodedToken.email
 
     next()
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } catch (err: any) {
-    return next(new HttpError('Unauthorized', err.message, 401))
+  } catch (error) {
+    const actionRequired =
+      error instanceof jwt.TokenExpiredError
+        ? ErrorActionRequired.RE_AUTHENTICATE
+        : undefined
+
+    return next(
+      new HttpError(
+        'Unauthorized',
+        (error as Error).message,
+        401,
+        actionRequired
+      )
+    )
   }
 }
 

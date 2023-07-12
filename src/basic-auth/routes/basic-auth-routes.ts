@@ -1,7 +1,7 @@
-import * as controller from '../controller/login-controller'
+import * as controller from '../controller/basic-auth-controller'
 import { Router } from 'express'
 import { check } from 'express-validator'
-import AuthCheck from '../configuration/middlewares/authenticationMiddleware'
+import AuthCheck from '../../configuration/middlewares/authenticationMiddleware'
 
 const signInValidator = [
   check('email').normalizeEmail(),
@@ -33,9 +33,12 @@ loginRoutes
   .route('/forgot-password')
   .post(forgotPasswordValidator, controller.forgotPassword)
 
-loginRoutes.use(AuthCheck) // follow routes will require this middleware success
+loginRoutes.route('/refresh-session').get(controller.refreshSession)
 
 loginRoutes.route('/sign-out').post(controller.signOut)
+
+loginRoutes.use(AuthCheck) // follow routes will require this middleware success
+
 loginRoutes.route('/check-auth').post(controller.checkAuthenticated)
 
 export default loginRoutes
